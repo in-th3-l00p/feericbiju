@@ -1,0 +1,22 @@
+---
+description: Feeric Biju — brand guidelines with green as primary accent. Always attach to UI work.
+globs:
+  - "app/**/*"
+  - "components/**/*"
+  - "styles/**/*"
+  - "tailwind.config.{js,ts}"
+alwaysApply: true
+---
+
+## brand
+- name: **Feeric Biju**
+- local jewellery store based in Brasov, Romania
+- category: boutique jewellery
+- positioning: approachable luxury, clean, minimal
+- voice: warm, concise; Romanian-first, English optional
+- ctas: “Vezi colecția”, “Comandă pe WhatsApp”, “Scrie-ne pe Facebook”
+- imagery: light backgrounds, macro product shots
+
+## color system (tailwind)
+Primary color: green — curat și proaspăt (Tailwind `green-700`, hover `green-800`).
+Base colors: white `#ffffff` pentru fundaluri, black `#000000` pentru text principal.

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="mx-auto h-screen max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+    <section className="mx-auto h-screen max-w-7xl grid grid-rows-[2fr_1fr] lg:grid-rows-1 lg:grid-cols-12 lg:gap-x-8 lg:px-8">
       <div className="flex flex-col justify-center px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-48 lg:pt-40 xl:col-span-6">
         <div className="mx-auto max-w-lg lg:mx-0">
           <div className="hidden sm:mt-10 sm:flex lg:mt-6">
@@ -39,12 +39,12 @@ export default function Hero() {
           src="/interior.png"
           width={1080}
           height={1080}
-          className="aspect-[3/2] max-h-screen w-full bg-white object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+          className="max-h-screen w-full bg-white object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
         />
 
-        <div className="absolute bottom-0 left-0 w-full h-16 z-90 bg-linear-to-t from-white to-transparent" />
+        <div className="lg:hidden absolute bottom-0 left-0 w-full h-8 lg:h-16 z-90 bg-linear-to-t from-white to-transparent" />
         <div className="hidden lg:block absolute top-0 left-0 w-16 h-screen z-90 bg-linear-to-r from-white to-transparent" />
-        <div className="lg:hidden absolute top-0 left-0 w-full h-16 z-90 bg-linear-to-b from-white to-transparent" />
+        <div className="lg:hidden absolute top-0 left-0 w-full h-8 lg:h-16 z-90 bg-linear-to-b from-white to-transparent" />
       </div>
     </section>
   );

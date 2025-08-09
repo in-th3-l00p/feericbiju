@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Collection from "./components/Collection";
 import Cta from "./components/Cta";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Collection />
       <Cta />
       <Contact />
+      <Footer />
     </main>
   );
 }

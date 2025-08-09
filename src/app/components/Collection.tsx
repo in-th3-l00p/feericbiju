@@ -11,67 +11,61 @@ type Product = {
 const products: Product[] = [
   {
     id: 1,
-    name: "Brățară minimal din argint",
+    name: "Brățara „Valurile Mării”",
     href: "#",
     description:
-      "Linii curate și finisaj lucios — o piesă versatilă pentru orice ținută.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=80",
+      "Brățară delicată din oțel inoxidabil cu charm în formă de scoică, inspirată de liniștea valurilor.",
+    imageUrl: "/collection/image-1.png",
     price: "249 RON",
     material: "Argint 925",
   },
   {
     id: 2,
-    name: "Cercei pearl drop",
+    name: "Colier „Luna de Argint”",
     href: "#",
     description:
-      "Accente perlate pentru un look clasic, discret și elegant.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1617038260897-89c5e7aa8e06?auto=format&fit=crop&w=1200&q=80",
+      "Colier fin din argint 925, cu pandantiv rotund gravat, evocând misterul nopților cu lună plină.",
+    imageUrl: "/collection/image-2.png",
     price: "199 RON",
     material: "Argint 925 & perle de cultură",
   },
   {
     id: 3,
-    name: "Colier chain subțire",
+    name: "Cercei „Frunza de Rouă”",
     href: "#",
     description:
-      "Un lanț delicat, perfect pentru layering sau purtat singular.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1577041249022-26cc744ddda3?auto=format&fit=crop&w=1200&q=80",
+      "Cercei mici din oțel inoxidabil, model frunză, accentuați cu pietricele translucide ca picăturile de rouă.",
+    imageUrl: "/collection/image-3.png",
     price: "229 RON",
     material: "Argint 925",
   },
   {
     id: 4,
-    name: "Inel signet mic",
+    name: "Inel „Aurora Verde”",
     href: "#",
     description:
-      "Proporții echilibrate și formă clasică — un statement discret.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1617160722418-5cae12c08670?auto=format&fit=crop&w=1200&q=80",
+      "Inel reglabil cu piatră semiprețioasă verde, inspirat de lumina dansantă a aurorei boreale.",
+    imageUrl: "/collection/image-4.png",
     price: "279 RON",
     material: "Argint 925",
   },
   {
     id: 5,
-    name: "Cercei huggie",
+    name: "Brățara „Nodul Inimilor”",
     href: "#",
     description:
-      "Confortabili, ușori și ideali pentru purtare zilnică.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1612178991541-e4d7d5f63a25?auto=format&fit=crop&w=1200&q=80",
+      "Brățară minimalistă cu șnur reglabil și simbol al infinitului, dedicată legăturilor de suflet.",
+    imageUrl: "/collection/image-5.png",
     price: "159 RON",
     material: "Argint 925",
   },
   {
     id: 6,
-    name: "Colier cu pandant minimalist",
+    name: "Colier „Soarele de Chihlimbar”",
     href: "#",
     description:
-      "Detaliu fin care adaugă strălucire ținutelor cotidiene.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+      "Colier cu pandantiv de chihlimbar natural, radianță caldă ce amintește de apusurile verii.",
+    imageUrl: "/collection/image-6.png",
     price: "249 RON",
     material: "Argint 925",
   },
@@ -79,7 +73,7 @@ const products: Product[] = [
 
 export default function Collection() {
   return (
-    <section id="colectie" className="bg-white py-24 sm:py-32">
+    <section id="colectie" className="bg-white py-24 sm:py-48">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-4xl font-semibold tracking-tight text-black sm:text-5xl">
@@ -120,14 +114,14 @@ export default function Collection() {
                   <p className="mt-4 line-clamp-3 text-sm/6 text-neutral-700">{product.description}</p>
                 </div>
 
-                <div className="mt-6 flex items-center justify-between">
+                {/* <div className="mt-6 flex items-center justify-between">
                   <a
                     href={product.href}
                     className="rounded-md bg-green-600 px-3.5 py-2 text-xs font-semibold text-white hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
                   >
                     Detalii
                   </a>
-                </div>
+                </div> */}
               </div>
             </article>
           ))}

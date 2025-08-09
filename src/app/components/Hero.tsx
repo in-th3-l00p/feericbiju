@@ -33,7 +33,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="relative max-h-screen lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
+      <div className="relative max-h-screen h-full lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
         <Image
           alt="Macro bijuterii pe fundal deschis"
           src="/interior.png"
@@ -42,8 +42,9 @@ export default function Hero() {
           className="aspect-[3/2] max-h-screen w-full bg-white object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
         />
 
-        <div className="absolute bottom-0 left-0 w-full h-32 z-90 bg-linear-to-t from-white to-transparent" />
-        <div className="absolute top-0 left-0 w-32 h-screen z-90 bg-linear-to-r from-white to-transparent" />
+        <div className="absolute bottom-0 left-0 w-full h-16 z-90 bg-linear-to-t from-white to-transparent" />
+        <div className="hidden lg:block absolute top-0 left-0 w-16 h-screen z-90 bg-linear-to-r from-white to-transparent" />
+        <div className="lg:hidden absolute top-0 left-0 w-full h-16 z-90 bg-linear-to-b from-white to-transparent" />
       </div>
     </section>
   );

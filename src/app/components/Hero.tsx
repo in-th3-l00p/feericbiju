@@ -39,8 +39,10 @@ export default function Hero() {
           src="/interior.png"
           width={1080}
           height={1080}
-          className="aspect-[3/2] w-full bg-white object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+          className="aspect-[3/2] max-h-screen w-full bg-white object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
         />
+
+        <div className="absolute bottom-0 left-0 w-full h-64 bg-white z-90" />
       </div>
     </section>
   );

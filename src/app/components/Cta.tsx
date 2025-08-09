@@ -6,7 +6,7 @@ export default function Cta() {
           <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
             Comandă prin WhatsApp
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-gray-300">
+          <p className="mx-auto mt-6 max-w-xl text-pretty text-lg/8 text-white">
             Trimite-ne un mesaj cu produsul dorit, iar noi îți confirmăm rapid stocul și detaliile de livrare.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">

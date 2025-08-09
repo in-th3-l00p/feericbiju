@@ -1,8 +1,8 @@
 export default function Home() {
   return (
     <main className="relative bg-white min-h-screen">
-      <section className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-        <div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-48 lg:pt-40 xl:col-span-6">
+      <section className="mx-auto h-screen max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+        <div className="flex flex-col justify-center px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-48 lg:pt-40 xl:col-span-6">
           <div className="mx-auto max-w-lg lg:mx-0">
             <div className="hidden sm:mt-10 sm:flex lg:mt-6">
               <div className="relative rounded-full px-3 py-1 text-sm text-neutral-600 ring-1 ring-neutral-200">
@@ -22,14 +22,6 @@ export default function Home() {
                 className="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-green-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-700"
               >
                 Vezi colecția
-              </a>
-              <a
-                href="https://wa.me/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="rounded-md px-3.5 py-2.5 text-sm font-semibold text-green-600 ring-1 ring-green-600/30 hover:bg-green-50"
-              >
-                Comandă pe WhatsApp
               </a>
               <a
                 href="#facebook"

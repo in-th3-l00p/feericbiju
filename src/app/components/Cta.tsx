@@ -1,8 +1,8 @@
 export default function Cta() {
   return (
     <section className="bg-white">
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-green-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
+      <div className="mx-auto max-w-7xl pb-24 sm:px-6 sm:pb-32 lg:px-8">
+        <div className="relative isolate overflow-hidden bg-green-800/80 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
           <h2 className="text-balance text-4xl font-semibold tracking-tight text-white sm:text-5xl">
             Comandă prin WhatsApp
           </h2>
